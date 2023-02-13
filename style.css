@@ -49,7 +49,7 @@ section{
 
 .btn{
     padding:.7rem 3rem;
-    background:#333;
+    background:#945a5a;
     color:#ffffff;
     cursor: pointer;
     margin-top: 1rem;
@@ -72,7 +72,7 @@ section{
     font-size: 4rem;
     padding:1rem;
     border-bottom: .1rem solid rgba(8, 8, 8, 0.267);
-    color:#070707;
+    color:#000000;
 }
 
 .heading span{
@@ -85,7 +85,7 @@ header{
     z-index: 1000;
     height:100%;
     width:35rem;
-    background:#1a1a1a;
+    background:#eae6e6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,12 +104,12 @@ header .user img{
 
 header .user .name{
     font-size: 3.5rem;
-    color:#fff;
+    color:#030303;
 }
 
 header .user .post{
     font-size: 2rem;
-    color:#eee;
+    color:#1c1c1c;
 }
 
 header .navbar{
@@ -126,10 +126,10 @@ header .navbar ul li a{
     display: block;
     padding:1rem;
     margin:1.5rem 0;
-    background:#3b3b3b;
+    background:#945a5a;
     color:#ffffff;
     font-size: 2rem;
-    border-radius: 5rem;
+    border-radius: 1rem;
 }
 
 header .navbar ul li a:hover{
@@ -150,11 +150,13 @@ header .navbar ul li a:hover{
 
 .home{
     display: flex;
-    justify-content: center;
-    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
     padding:0 15rem;
 }
-
+.home>div:nth-child(1){
+    width: 75%;
+}
 .home h3{
     font-size: 2.5rem;
     color:#282828;
@@ -239,7 +241,7 @@ header .navbar ul li a:hover{
     width:27rem;
     margin:4rem 1rem;
     padding-left: 4rem;
-    border-left: .2rem solid #2f2f2f;
+    border-left: .2rem solid #945a5a;
     position: relative;
 }
 
@@ -383,12 +385,14 @@ header .navbar ul li a:hover{
 }
 .prj-flex{
     margin-top: 30px;
+    
 }
 .prj-flex1{
     width: 95%;
     /* border: 1px solid red; */
     height: 30px;
     margin-top: 10px;
+    
 }
 .prj-flex1>h1{
     color: #5d2e2e;
@@ -400,20 +404,21 @@ header .navbar ul li a:hover{
 .prj-flex2{
     width: 95%;
     /* border: 1px solid green; */
-    height: 180px;
+    height: 170px;
     margin-top: 25px;
 }
 .prj-flex3{
     width: 95%;
-    border: 1px solid white;
-    height: 350px;
+    border: 1px solid rgb(50, 50, 50);
+    height: 300px;
+    
 }
 .tech{
     color: #5d2e2e;
     font-size: 20px;
 }
 .prj-flex2>h3{
-    color: white;
+    color: #5d2e2e;
     font-size: 18px;
 }
 .margin{
@@ -430,10 +435,16 @@ header .navbar ul li a:hover{
     color: rgb(4, 4, 4);
 }
 
+.project-card{
+    width: 47%;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
-
-
-
+b{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
@@ -513,10 +524,11 @@ header .navbar ul li a:hover{
     .contact .row form{
         margin:3rem 0;
     }
-
+   
  }
 
  .pro2{
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
  }
