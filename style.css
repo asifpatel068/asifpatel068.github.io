@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --yellow:#f9ca24;
+    --yellow:#5d2e2e;
 }
 
 *{
@@ -16,7 +16,7 @@
 
 *::selection{
     background:var(--yellow);
-    color:#333;
+    color:#000000;
 }
 
 html{
@@ -29,7 +29,7 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    background:#222;
+    background:#1b1b1b;
 }
 
 html::-webkit-scrollbar-thumb{
@@ -37,20 +37,20 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:#111;
+    background:#ffffff;
     overflow-x: hidden;
     padding-left: 35rem;
 }
 
 section{
-    min-height: 100vh;
+    min-height: 75vh;
     padding:1rem;
 }
 
 .btn{
     padding:.7rem 3rem;
     background:#333;
-    color:#fff;
+    color:#ffffff;
     cursor: pointer;
     margin-top: 1rem;
     font-size: 2rem;
@@ -71,8 +71,8 @@ section{
     margin:0 6rem;
     font-size: 4rem;
     padding:1rem;
-    border-bottom: .1rem solid #fff4;
-    color:#fff;
+    border-bottom: .1rem solid rgba(8, 8, 8, 0.267);
+    color:#070707;
 }
 
 .heading span{
@@ -126,8 +126,8 @@ header .navbar ul li a{
     display: block;
     padding:1rem;
     margin:1.5rem 0;
-    background:#333;
-    color:#fff;
+    background:#3b3b3b;
+    color:#ffffff;
     font-size: 2rem;
     border-radius: 5rem;
 }
@@ -139,8 +139,8 @@ header .navbar ul li a:hover{
 #menu{
     position: fixed;
     top:2rem; right:2rem;
-    background:#333;
-    color:#fff;
+    background:#212121;
+    color:#0b0b0b;
     cursor: pointer;
     font-size: 2.5rem;
     padding:1rem 1.5rem;
@@ -157,12 +157,12 @@ header .navbar ul li a:hover{
 
 .home h3{
     font-size: 2.5rem;
-    color:#fff;
+    color:#282828;
 }
 
 .home h1{
     font-size:5rem;
-    color:#fff;
+    color:#131313;
 }
 
 .home h1 span{
@@ -171,7 +171,7 @@ header .navbar ul li a:hover{
 
 .home p{
     font-size:2rem;
-    color:#eee;
+    color:#1e1e1e;
     padding: 1rem 0;
 }
 
@@ -197,7 +197,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .info h3 span{
-    color:#eee;
+    color:#282828;
     padding:0 .5rem;
 }
 
@@ -223,7 +223,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box h3{
     font-size: 2rem;
-    color:#fff;
+    color:#000000;
 }
 
 .education .box-container{
@@ -239,27 +239,27 @@ header .navbar ul li a:hover{
     width:27rem;
     margin:4rem 1rem;
     padding-left: 4rem;
-    border-left: .2rem solid #fff;
+    border-left: .2rem solid #2f2f2f;
     position: relative;
 }
 
 .education .box-container .box span{
     font-size: 1.3rem;
     background:#222;
-    color:#fff;
+    color:#ededed;
     border-radius: 5rem;
     padding:.5rem 2.5rem;
 }
 
 .education .box-container .box h3{
     font-size: 2rem;
-    color:#fff;
+    color:#121212;
     padding-top: 1.5rem;
 }
 
 .education .box-container .box p{
     font-size: 1.4rem;
-    color:#eee;
+    color:#393939;
     padding: 1rem 0;
 }
 
@@ -272,7 +272,7 @@ header .navbar ul li a:hover{
     line-height: 5rem;
     text-align: center;
     font-size: 2rem;
-    color:#fff;
+    color:#000000;
     background:var(--yellow);
 }
 
@@ -326,8 +326,8 @@ header .navbar ul li a:hover{
 .contact .row form .box{
     padding:1.5rem;
     margin:1rem 0;
-    background:#3333;
-    color:#fff;
+    background:#e0e0e033;
+    color:#000000;
     text-transform: none;
     font-size: 1.7rem;
     width:100%;
@@ -344,7 +344,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content .title{
     text-transform: uppercase;
-    color:#fff;
+    color:#0e0e0e;
     font-size: 3rem;
     padding-bottom: 2rem;
 }
@@ -353,7 +353,7 @@ header .navbar ul li a:hover{
     display: flex;
     align-items: center;
     font-size: 2rem;
-    color:#eee;
+    color:#4e4e4e;
     padding:1rem 0;
     font-weight: normal;
     text-transform: none;
@@ -391,7 +391,7 @@ header .navbar ul li a:hover{
     margin-top: 10px;
 }
 .prj-flex1>h1{
-    color: rgb(249,202,36);
+    color: #5d2e2e;
     font-size: 30px;
    text-align: center;
    text-decoration: underline;
@@ -409,7 +409,7 @@ header .navbar ul li a:hover{
     height: 350px;
 }
 .tech{
-    color: rgb(249,202,36);
+    color: #5d2e2e;
     font-size: 20px;
 }
 .prj-flex2>h3{
@@ -427,7 +427,7 @@ header .navbar ul li a:hover{
 
 #github-stats{
     text-align: center;
-    color: white;
+    color: rgb(4, 4, 4);
 }
 
 
@@ -514,4 +514,9 @@ header .navbar ul li a:hover{
         margin:3rem 0;
     }
 
+ }
+
+ .pro2{
+    display: flex;
+    justify-content: space-around;
  }
