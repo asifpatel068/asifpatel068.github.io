@@ -39,7 +39,8 @@ html::-webkit-scrollbar-thumb{
 body{
     background:#ffffff;
     overflow-x: hidden;
-    padding-left: 35rem;
+    width: 90%;
+    margin: auto;
 }
 
 section{
@@ -54,7 +55,8 @@ section{
     cursor: pointer;
     margin-top: 1rem;
     font-size: 2rem;
-    border-radius: 5rem;
+    border-radius: 1rem;
+    margin-left: 10px;
 }
 
 .btn i{
@@ -65,6 +67,93 @@ section{
 .btn:hover{
     background:var(--yellow);
 }
+
+/* ------nav------- */
+
+
+a {   
+    color: #5d2e2e;
+}
+
+a:active {
+    color: #5d2e2e;
+}
+
+#nav-menu{
+    /* width: auto; */
+    /* border: 2px solid red; */
+    display: flex;
+    
+    padding: 5px 5px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: -40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+/* border: 2px solid red; */
+padding: 5px 5px;
+width: 6%;
+
+}
+
+.iconlogo{
+    width: 100%;
+    border-radius: 50%;
+}
+#nav-right{
+    display: flex;
+    /* border: 2px solid black; */
+    /* justify-content:end; */
+}
+#nav-content{
+    display: flex;
+    list-style-type: none;
+
+}
+
+#nav-content li {
+    align-self: center;
+    margin: 0px 40px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+  
+}
+#nav-content li:hover{
+    
+    background: #ebe9fd;
+    transition: all 0.3s ease-out;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#nav-content li a{
+text-decoration: none;
+font-size: 20px;
+padding: 15px 20px;
+
+
+}
+
+#resume-link-1{
+    align-self: center;
+background: #482727;
+transition: all 0.5s ease-out;
+}
+#resume{
+    color: white;
+}
+#nav-content li:last-child{
+    /* color: white; */
+    background: #71474c;
+ 
+}
+
+
+/* ------nav------- */
 
 .heading{
     text-align: center;
@@ -99,7 +188,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
+    border:.7rem solid #945a5a;
 }
 
 header .user .name{
@@ -275,7 +364,7 @@ header .navbar ul li a:hover{
     text-align: center;
     font-size: 2rem;
     color:#000000;
-    background:var(--yellow);
+    background:#945a5a;
 }
 
 .portfolio .box-container{
