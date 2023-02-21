@@ -525,9 +525,13 @@ header .navbar ul li a:hover{
 }
 
 .project-card{
-    width: 47%;
+    width: 45%;
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.project-card:hover{
+  padding: 50px;
 }
 
 b{
@@ -535,7 +539,14 @@ b{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+.skills-body{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.skills-body>div{
+    border: 1px solid grey;
+    text-align: center;
+}
 
 
 
