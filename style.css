@@ -50,7 +50,7 @@ section{
 
 .btn{
     padding:.7rem 3rem;
-    background:#0d0d0d;
+    background:#2424f9;
     color:#fff;
     cursor: pointer;
     margin-top: 1rem;
@@ -64,7 +64,7 @@ section{
 }
 
 .btn:hover{
-    background:var(--blue);
+    background:#00004e;
 }
 
 .heading{
@@ -73,7 +73,7 @@ section{
     font-size: 4rem;
     padding:1rem;
     border-bottom: .1rem solid #fff4;
-    color:#fff;
+    color:#000000;
 }
 
 .heading span{
@@ -139,6 +139,7 @@ header .navbar ul li a:hover{
     color: #fff;
 }
 
+
 #menu{
     position: fixed;
     top:2rem; right:2rem;
@@ -188,10 +189,11 @@ header .navbar ul li a:hover{
     padding:1rem 0;
 }
 
-.about .row .info{
+.about .row .info {
     flex:1 1 48rem;
-    padding:2rem 1rem;
+    padding:2rem 2rem;
     padding-left: 6rem;
+    
 }
 
 .about .row .info h3{
@@ -229,56 +231,6 @@ header .navbar ul li a:hover{
 .about .row .counter .box h3{
     font-size: 2rem;
     color:#000000;
-}
-
-.education .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding:1rem 0;
-    padding-left: 3rem;
-}
-
-.education .box-container .box{
-    width:27rem;
-    margin:4rem 1rem;
-    padding-left: 4rem;
-    border-left: .2rem solid #000000;
-    position: relative;
-}
-
-.education .box-container .box span{
-    font-size: 1.3rem;
-    background:#222;
-    color:#b8b8b8;
-    border-radius: 5rem;
-    padding:.5rem 2.5rem;
-}
-
-.education .box-container .box h3{
-    font-size: 2rem;
-    color:#000000;
-    padding-top: 1.5rem;
-}
-
-.education .box-container .box p{
-    font-size: 1.4rem;
-    color:#000000;
-    padding: 1rem 0;
-}
-
-.education .box-container .box i{
-    position: absolute;
-    top:-1.5rem; left:-2.5rem;
-    height:5rem;
-    width: 5rem;
-    border-radius: 50%;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    color:#000000;
-    background:var(--blue);
 }
 
 .portfolio .box-container{
@@ -431,6 +383,7 @@ header .navbar ul li a:hover{
 
 
 #github-stats{
+    margin-top: 30px;
     text-align: center;
     color: rgb(0, 0, 0);
 }
@@ -438,8 +391,11 @@ header .navbar ul li a:hover{
 .pro2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+   margin-top: 30px;
 }
-
+.pro2 img:hover{
+    opacity: 80%;
+}
 
 .skills-body{
     display: grid;
@@ -450,11 +406,6 @@ header .navbar ul li a:hover{
     text-align: center;
 }
 
-
-#github-stats{
-    text-align: center;
-    color: rgb(4, 4, 4);
-}
 
 
 
@@ -517,6 +468,9 @@ header .navbar ul li a:hover{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .container img{
+        width: 100%;
+    }
  }
 
 @media (max-width:400px){
@@ -552,6 +506,13 @@ header .navbar ul li a:hover{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .container img{
+        width: 100%;
+    }
+ }
+
+ .container{
+    padding: 3rem;
  }
 /* 
  .pro2{

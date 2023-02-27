@@ -52,16 +52,7 @@
     <!-- header section starts  -->
 
     <header>
-      <!-- <div class="user">
-        <img  class="home-img"
-          src="https://i.postimg.cc/yxLThjNb/1.jpg"
-          alt="Photo-from-Asif"
-          border="0"
-        />
-        <h3 class="name">Asif Patel</h3>
-        <p class="post">Full stack web developer</p>
-      </div> -->
-
+ 
       <nav class="navbar"  id="nav-menu">
         <ul>
           <li><a href="#home" class="nav-link home">home</a></li>
@@ -73,11 +64,14 @@
           <li><a href="#projects" class="nav-link projects">projects</a></li>
           <li><a href="#contact" class="nav-link contact">contact</a></li>
           <li class="nav-link resume" >
-            <a id="resume-button-1" 
-            href="Asif_Patel_Resume.pdf"
-            target="_blank"
-            download="/Asif_Patel_Resume.pdf"
-            >Resume</a>
+            <a
+              id="resume-link-1"
+              href="Asif_Patel_Resume.pdf"
+              target="_blank"
+              download="/Asif_Patel_Resume.pdf"
+              ><button id="resume-button-1">
+                 </button
+            >Resume</a> 
             
           </li>
         </ul>
@@ -95,16 +89,17 @@
        
        
       <h1>Hi👋, I am <span>Asif Patel</span></h1>
-      <p >
-        Aspiring <b>Full-stack web developer</b>  who enjoys creating and developing user-friendly 
-        websites and applications. Able to adapt to both independent and collaborative environments. 
-        Capable of developing web applications across multiple APIs and databases. 
-        Looking forward to developing skills in a challenging work environment. 
-      </p>
-      <!-- <a href="#about"
-        ><button class="btn">about me <i class="fas fa-user"></i></button
-      ></a> -->
-          
+      <h3 >
+        Full-stack web developer 
+      </h3>
+      <a
+      id="resume-link-2"
+      href="Asif_Patel_Resume.pdf"
+      target="_blank"
+      download="/Asif_Patel_Resume.pdf"
+      ><button class="btn" id="resume-button-2">
+        Resume <i class="fas fa-download"></i></button
+    ></a>  
       </div>
      <div>
       <img width="100%" class="home-img"
@@ -124,20 +119,20 @@
 
       <div id="user-detail-intro" class="row">
         <div class="info">
+          <h3 ><span>
+            An Aspiring Full-stack web developer who enjoys creating and developing user-friendly 
+            websites and applications. Able to adapt to both independent and collaborative environments. 
+            Capable of developing web applications across multiple APIs and databases. 
+            Looking forward to developing skills in a challenging work environment. </span>
+          </h3>
+              
           <h3><span > Name : </span> Asif Patel</h3>
           <h3><span> D.O.B : </span> 10-05-1999</h3>
           <h3><span> Qualification : </span> Bachelor's in Architecture</h3>
           <h3><span> Learning : </span> Full Stack Web Developer</h3>
           <h3><span> Language : </span> Hindi, English & Kannada</h3>
          
-          <a
-            id="resume-link-2"
-            href="Asif_Patel_Resume.pdf"
-            target="_blank"
-            download="/Asif_Patel_Resume.pdf"
-            ><button class="btn" id="resume-button-2">
-              Resume <i class="fas fa-download"></i></button
-          ></a>
+        
         </div>
 
          
@@ -147,46 +142,7 @@
 
     <!-- about section ends -->
 
-    <!-- education section starts  -->
-<!-- 
-    <section class="education" id="education">
-      <h1 class="heading">my <span>education</span></h1>
-
-      <div class="box-container">
-        <div class="box">
-          <i class="fas fa-graduation-cap"></i>
-          <span>2015-2017</span>
-          <h3>Pre University College</h3>
-          <p>
-            I have completed my PUC in science from KLE Malagauda patil College
-            raibag in 2017
-          </p>
-        </div>
-
-        <div class="box">
-          <i class="fas fa-graduation-cap"></i>
-          <span>2017-2022</span>
-          <h3>Bachelor's in Architecture</h3>
-          <p>
-            I have completed Bachelor's in Architecture from KLS Gogte institute
-            of technology in 2022
-          </p>
-        </div>
-
-        <div class="box">
-          <i class="fas fa-graduation-cap"></i>
-          <span>Aug 2022</span>
-          <h3>Full Stack web development</h3>
-          <p>
-            currently i am pursuing full-stack web development course from masai
-            school since August 2022
-          </p>
-        </div>
-
-      </div>
-
-    </section> -->
-
+    
         <!-- skills section starts  --> 
   <section class="skills" id="skills">
       <h1 class="heading">my <span>skills</span></h1>
@@ -242,7 +198,7 @@
 
     <!-- skills section ends -->
 
-    <!-- portfolio section starts  -->
+    <!-- project section starts  -->
 
     <section class="portfolio" id="projects">
       <h1 class="heading">my <span>projects</span></h1>
@@ -384,25 +340,22 @@
 
     </section>
 
-    <!-- portfolio section ends -->
+    <!-- project section ends -->
 
 
 
 
     <div id="github-stats">
       <div class="skills-head">
-     
+      <h1 class="heading">GitHub <span> Statistics</span></h1>
       </div>
       <div class="container">
-        <h1 class="heading">GitHub <span> Statistics</span></h1>
-        <div>
-          <div class="react-activity-calendar calendar">
-          
-          </div>
+       
+       
           <br />
           <div class="stats">
             <a href="https://github.com/asifpatel068/">
-              <img
+              <img width="40%"
                 id="github-streak-stats"
                 src="https://github-readme-streak-stats.herokuapp.com/?user=asifpatel068&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"
                 alt=""
@@ -410,7 +363,7 @@
               <br />
               <br />
 
-              <img
+              <img width="40%"
                 id="github-stats-card"
                 src="https://github-readme-stats.vercel.app/api?username=asifpatel068&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117"
               />
@@ -418,14 +371,14 @@
               <br />
               <br />
 
-              <img
+              <img width="40%"
                 src="https://github-readme-stats.vercel.app/api/top-langs/?username=asifpatel068&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117"
                 id="github-top-langs"
               />
               <br />
               <br />
 
-              <img
+              <img width="100%"
                 src="https://i.postimg.cc/hGhBjsmN/calender.jpg"
                 id="github-top-langs"
               />
@@ -448,12 +401,12 @@
 
     <!-- contact section starts  -->
 
-    <section class="contact" id="contact" 
-      <h1 class="heading"><span>contact</span> me</h1>
+    <section class="contact" id="contact" >
+      <h1 class="heading"><span>contact Info</span></h1>
 
       <div class="row">
         <div class="content">
-          <h3 class="title">contact info</h3>
+          <h3 class="title"></h3>
 
           <div class="info">
             <a  id="contact-email" href="https://asifpatel068@gmail.com" target="_blank"
