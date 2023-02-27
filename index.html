@@ -64,11 +64,22 @@
 
       <nav class="navbar"  id="nav-menu">
         <ul>
-          <li><a href="#home" id="home">home</a></li>
-          <li><a href="#about" id="about" class="about section">about</a></li>
+          <li><a href="#home" class="nav-link home">home</a></li>
+          <li><a href="#about"  class="nav-link about">about</a></li>
           <!-- <li><a href="#education">education</a></li> -->
-          <li><a href="#portfolio"  id="projects">projects</a></li>
-          <li><a href="#contact"  id="contact">contact</a></li>
+          <li >
+            <a href="#skills" class="nav-link skills">Skills</a>
+          </li>
+          <li><a href="#projects" class="nav-link projects">projects</a></li>
+          <li><a href="#contact" class="nav-link contact">contact</a></li>
+          <li class="nav-link resume" >
+            <a id="resume-button-1" 
+            href="https://drive.google.com/file/d/17IAPamudP8UhGqDUfI3wpcyEFqwex7IU/view?usp=sharing"
+            target="_blank"
+            download="/Asif_Patel_Resume.pdf"
+            >Resume</a>
+            
+          </li>
         </ul>
       </nav>
     </header>
@@ -79,12 +90,12 @@
 
     <!-- home section starts  -->
 
-    <section  class="nav-link home" class="home" id="home">
+    <section id="home" class="home">
       <div>
        
        
-      <h1>Hi👋, I am <span id="user-detail-name">Asif Patel</span></h1>
-      <p id="user-detail-intro">
+      <h1>Hi👋, I am <span>Asif Patel</span></h1>
+      <p >
         Aspiring <b>Full-stack web developer</b>  who enjoys creating and developing user-friendly 
         websites and applications. Able to adapt to both independent and collaborative environments. 
         Capable of developing web applications across multiple APIs and databases. 
@@ -108,10 +119,10 @@
 
     <!-- about section starts  -->
 
-    <section  class="nav-link about"  class="about"id="about">
-      <h1 class="heading"><span>about</span> me</h1>
+    <section id="about" class="about section">
+      <h1 id="user-detail-name" class="heading"><span>About</span> me</h1>
 
-      <div class="row">
+      <div id="user-detail-intro" class="row">
         <div class="info">
           <h3><span > Name : </span> Asif Patel</h3>
           <h3><span> D.O.B : </span> 10-05-1999</h3>
@@ -120,11 +131,11 @@
           <h3><span> Language : </span> Hindi, English & Kannada</h3>
          
           <a
-            id="resume-link-1"
+            id="resume-link-2"
             href="https://drive.google.com/file/d/17IAPamudP8UhGqDUfI3wpcyEFqwex7IU/view?usp=sharing"
             target="_blank"
             download="/Asif_Patel_Resume.pdf"
-            ><button class="btn" class="nav-link resume">
+            ><button class="btn" id="resume-button-2">
               Resume <i class="fas fa-download"></i></button
           ></a>
         </div>
@@ -233,34 +244,11 @@
 
     <!-- portfolio section starts  -->
 
-    <section class="portfolio" id="portfolio" class="nav-link projects">
+    <section class="portfolio" id="portfolio">
       <h1 class="heading">my <span>projects</span></h1>
 
       <div class="margin">
-        <!-- <div class="box">
-        <img src="images/img1.jpg" alt="">
-    </div>
-
-    <div class="box">
-        <img src="images/img2.jpg" alt="">
-    </div>
-
-    <div class="box">
-        <img src="images/img3.jpg" alt="">
-    </div>
-
-    <div class="box">
-        <img src="images/img4.jpg" alt="">
-    </div>
-
-    <div class="box">
-        <img src="images/img5.jpg" alt="">
-    </div>
-
-    <div class="box">
-        <img src="images/img6.jpg" alt="">
-    </div> -->
-
+       
     <div class="pro2">
 
 
@@ -460,7 +448,7 @@
 
     <!-- contact section starts  -->
 
-    <section class="contact" id="contact" class="nav-link contact">
+    <section class="contact" id="contact" 
       <h1 class="heading"><span>contact</span> me</h1>
 
       <div class="row">
