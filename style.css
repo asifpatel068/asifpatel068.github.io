@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --yellow:#2424f9;
+    --blue:#2424f9;
 }
 
 *{
@@ -15,7 +15,7 @@
 }
 
 *::selection{
-    background:var(--yellow);
+    background:var(--blue);
     color:#000000;
 }
 
@@ -33,11 +33,12 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--yellow);
+    background:var(--blue);
 }
 
 body{
     background:#fdfdfd;
+   
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -63,7 +64,7 @@ section{
 }
 
 .btn:hover{
-    background:var(--yellow);
+    background:var(--blue);
 }
 
 .heading{
@@ -76,7 +77,7 @@ section{
 }
 
 .heading span{
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 header{
@@ -100,7 +101,7 @@ header .user img,.home>div>img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
+    border:.7rem solid var(--blue);
 }
 
 header .user .name{
@@ -170,7 +171,7 @@ header .navbar ul li a:hover{
 }
 
 .home h1 span{
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 .home p{
@@ -195,7 +196,7 @@ header .navbar ul li a:hover{
 
 .about .row .info h3{
     font-size: 2rem;
-    color:var(--yellow);
+    color:var(--blue);
     padding:1rem 0;
     font-weight: normal;
 }
@@ -222,7 +223,7 @@ header .navbar ul li a:hover{
 
 .about .row .counter .box span{
     font-size: 4rem;
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 .about .row .counter .box h3{
@@ -277,7 +278,7 @@ header .navbar ul li a:hover{
     text-align: center;
     font-size: 2rem;
     color:#000000;
-    background:var(--yellow);
+    background:var(--blue);
 }
 
 .portfolio .box-container{
@@ -365,7 +366,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content .info h3 i{
     padding-right: 1rem;
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 .top{
@@ -434,6 +435,11 @@ header .navbar ul li a:hover{
     color: rgb(0, 0, 0);
 }
 
+.pro2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
 
 .skills-body{
     display: grid;
@@ -487,7 +493,15 @@ header .navbar ul li a:hover{
    body{
        padding:0;
    }
-
+   
+   .pro2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .skills-body{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 @media (max-width:768px){
@@ -495,7 +509,14 @@ header .navbar ul li a:hover{
     html{
         font-size: 50%;
     }
- 
+    .pro2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .skills-body{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
  }
 
 @media (max-width:400px){
@@ -523,7 +544,14 @@ header .navbar ul li a:hover{
     .contact .row form{
         margin:3rem 0;
     }
-   
+    .pro2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .skills-body{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
  }
 /* 
  .pro2{
