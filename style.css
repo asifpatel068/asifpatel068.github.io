@@ -96,8 +96,8 @@ header{
 }
 
 header .user img,.home>div>img{
-    height:17rem;
-    width:17rem;
+    height:20rem;
+    width:20rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
