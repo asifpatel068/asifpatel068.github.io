@@ -44,7 +44,7 @@ body{
 }
 
 section{
-    min-height: 100vh;
+    min-height: 95vh;
     padding:1rem;
 }
 
@@ -392,14 +392,18 @@ header .navbar ul li a:hover{
     display: grid;
     grid-template-columns: repeat(2,1fr);
    margin-top: 30px;
+   gap: 50px;
+   
 }
 .pro2 img:hover{
-    opacity: 80%;
+    opacity: 70%;
+
 }
 
 .skills-body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    
 }
 .skills-body>div{
     border: 0px solid grey;
