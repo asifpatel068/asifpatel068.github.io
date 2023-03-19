@@ -3,13 +3,6 @@ function resume(){
 }
 
 
-
-
-
-
-
-
-
 $(document).ready(function(){
 
     $('#menu').click(function(){
