@@ -429,8 +429,8 @@ header .navbar ul li a:hover{
    
 }
 .skills-body>div:hover{
-    -webkit-transform: scale(1.5);
-	transform: scale(1.5);
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 
