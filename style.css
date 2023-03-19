@@ -396,6 +396,10 @@ header .navbar ul li a:hover{
     text-align: center;
     color: rgb(0, 0, 0);
 }
+#github-stats img:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
 
 .pro2{
     display: grid;
@@ -410,15 +414,24 @@ header .navbar ul li a:hover{
 } */
 
 .skills-body{
+    width: 60%;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    column-gap: 25%;
+    gap: 20px;
     
 }
 .skills-body>div{
-    border: 0px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
     text-align: center;
+   
 }
-
+.skills-body>div:hover{
+    -webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
 
 
 
