@@ -1,3 +1,15 @@
+function resume(){
+  window.open("https://drive.google.com/file/d/17IAPamudP8UhGqDUfI3wpcyEFqwex7IU/view?usp=sharing","_blank")
+}
+
+
+
+
+
+
+
+
+
 $(document).ready(function(){
 
     $('#menu').click(function(){
