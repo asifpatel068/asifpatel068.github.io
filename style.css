@@ -480,6 +480,10 @@ header .navbar ul li a:hover{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .calendar{
+        width: none;
+        display: none;
+    }
 }
 
 @media (max-width:768px){
@@ -497,6 +501,10 @@ header .navbar ul li a:hover{
     }
     .container img{
         width: 100%;
+    }
+    .calendar{
+        width: none;
+        display: none;
     }
  }
 
@@ -532,10 +540,15 @@ header .navbar ul li a:hover{
     
     .skills-body{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
     .container img{
         width: 100%;
+    }
+
+    .calendar{
+        width: none;
+        display: none;
     }
  }
 
