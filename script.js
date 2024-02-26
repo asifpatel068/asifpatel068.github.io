@@ -1,6 +1,17 @@
 
-    new GitHubCalendar(".calendar", "asifpatel068");
+// new GitHubCalendar(".calendar", "asifpatel068");
 
+GitHubCalendar(".calendar", "asifpatel068");
+
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "asifpatel068", { responsive: true });
+
+// Use a proxy
+GitHubCalendar(".calendar", "asifpatel068", {
+   proxy (username) {
+     return fetch(`https://your-proxy.com/github?user=${username}`)
+   }
+}).then(r => r.text())
 
 function resume(){
   window.open("https://drive.google.com/file/d/17IAPamudP8UhGqDUfI3wpcyEFqwex7IU/view?usp=sharing","_blank")
